@@ -28,7 +28,7 @@
   --small-font-size: .813rem;
 
   /*========== Font weight ==========*/
-  --font-semi-bold: 600;
+  --font-semi-bold: 800;
   --font-bold: 700;
 
   /*========== Margenes ==========*/
@@ -321,39 +321,40 @@ img{
   justify-self: center;
 }
 
-/*========== DECORATION ==========*/
-.decoration__container{
+/*========== courses ==========*/
+.courses__container{
   grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
 }
 
-.decoration__data{
+.courses__data{
   text-align: center;
   padding: 1rem 1rem 2rem;
-  background-color: var(--container-color);
+  /* background-color: var(--container-color); */
+  background-color: rgb(120 32 116 / 50%);
   box-shadow: 0 2px 6px rgba(65,11,16,.15);
   border-radius: 1rem;
 }
 
-.decoration__data:hover{
+.courses__data:hover{
   box-shadow: 0 3px 12px rgba(65,11,16,.15);
 }
 
-.decoration__img{
+.courses__img{
   width: 180px;
 }
 
-.decoration__title{
+.courses__title{
   font-size: var(--h3-font-size);
   margin-bottom: var(--mb-1);
 }
 
 /*========== ACCESSORIES ==========*/
-.accessory__container{
+.depositions__container{
   grid-template-columns: repeat(2,1fr);
   padding-bottom: 2rem;
 }
 
-.accessory__content{
+.depositions__content{
   position: relative;
   display: grid;
   padding: .25rem .75rem .75rem;
@@ -362,36 +363,36 @@ img{
   border-radius: 1rem;
 }
 
-.accessory__content:hover{
+.depositions__content:hover{
   box-shadow: 0 3px 12px rgba(65,11,16,.15);
 }
 
-.accessory__img{
+.depositions__img{
   width: 110px;
   justify-self: center;
   margin-bottom: .25rem;
 }
 
-.accessory__title, .accessory__category{
+.depositions__title, .depositions__category{
   text-align: center;
 }
 
-.accessory__title{
+.depositions__title{
   font-size: var(--normal-font-size);
 }
 
-.accessory__category{
+.depositions__category{
   font-size: var(--small-font-size);
   margin-bottom: var(--mb-1);
   color: var(--text-color-light);
 }
 
-.accessory__preci{
+.depositions__preci{
   font-weight: var(--font-semi-bold);
   color: var(--title-color);
 }
 
-.accessory__button{
+.depositions__button{
   position: absolute;
   bottom: 0;
   right: 0;
@@ -403,7 +404,7 @@ img{
 
 /*========== SEND GIFT ==========*/
 .send{
-  background-color: var(--first-color-send);
+  background-color: rgb(120 32 116 / 50%);
 }
 
 .send__title, .send__description{
@@ -568,25 +569,25 @@ img{
     padding: 0 2rem;
   }
 
-  .accessory__container{
+  .depositions__container{
     grid-template-columns: repeat(3,224px);
     justify-content: center;
   }
 
-  .accessory__content{
+  .depositions__content{
     padding: .5rem 1.5rem 1.5rem;
   }
 
-  .accessory__img{
+  .depositions__img{
     width: 120px;
     margin-bottom: var(--mb-1);
   }
 
-  .accessory__title, .accessory__category{
+  .depositions__title, .depositions__category{
     text-align: initial;
   }
 
-  .accessory__button{
+  .depositions__button{
     padding: .75rem;
   }
 

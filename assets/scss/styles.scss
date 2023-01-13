@@ -309,8 +309,8 @@ img{
 }
 
 
-/*========== DECORATION ==========*/
-.decoration{
+/*========== courses ==========*/
+.courses{
     &__container{
         grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
     }
@@ -335,7 +335,7 @@ img{
 }
 
 /*========== ACCESSORIES ==========*/
-.accessory{
+.depositions{
     &__container{
         grid-template-columns: repeat(2, 1fr);
         padding-bottom: 2rem;
@@ -542,7 +542,7 @@ img{
         padding: 0 2rem;
     }
     
-    .accessory{
+    .depositions{
         &__container{
             grid-template-columns: repeat(3, 224px);
             justify-content: center;
