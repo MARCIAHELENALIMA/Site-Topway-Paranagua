@@ -1,0 +1,21 @@
+{
+  "name": "site-topway-paranagua",
+  "version": "1.0.0",
+  "description": "esboço do site para escola de ingles topway paranagua",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MARCIAHELENALIMA/Site-Topway-Paranagua.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MARCIAHELENALIMA/Site-Topway-Paranagua/issues"
+  },
+  "homepage": "https://github.com/MARCIAHELENALIMA/Site-Topway-Paranagua#readme"
+}
