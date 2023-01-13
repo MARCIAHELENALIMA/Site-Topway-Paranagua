@@ -1,3 +1,4 @@
+
 /*===== GOOGLE FONTS =====*/
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
 
@@ -14,6 +15,9 @@
   --text-color-light: #8F8A8A;
   --body-color: #FEFBFB;
   --container-color: #FFF;
+  --salmon: #f87d70;
+  --purple: #951c81;
+  --bluish-purple: #7841de;
 
   /*========== Font and typography ==========*/
   --body-font: 'Poppins', sans-serif;
@@ -185,7 +189,7 @@ img{
 }
 
 .nav__logo:hover{
-  color: var(--first-color);
+  color: var(--purple);
 }
 
 .nav__link{
@@ -193,7 +197,7 @@ img{
 }
 
 .nav__link:hover{
-  color: var(--first-color);
+  color: var(--bluish-purple);
 }
 
 .nav__toggle{
@@ -236,7 +240,7 @@ img{
   justify-content: center;
   align-items: center;
   padding: .3rem;
-  background: rgba(218,37,53,.5);
+  background: rgba(216, 56, 208, 0.5);
   border-radius: .4rem;
   z-index: var(--z-tooltip);
   transition: .4s;
@@ -244,7 +248,7 @@ img{
 }
 
 .scrolltop:hover{
-  background-color: var(--first-color);
+  background-color: var(--purple);
 }
 
 .scrolltop__icon{
@@ -280,7 +284,7 @@ img{
 /*========== BUTTONS ==========*/
 .button{
   display: inline-block;
-  background-color: var(--first-color);
+  background-color: var(--salmon);
   color: #fff;
   padding: 1rem 1.5rem;
   border-radius: .5rem;
@@ -289,18 +293,18 @@ img{
 }
 
 .button:hover{
-  background-color: var(--first-color-alt);
+  background-color: var(--purple);
 }
 
 .button-link{
   background: none;
   padding: 0;
-  color: var(--first-color);
+  color: var(--purple);
 }
 
 .button-link:hover{
   background-color: transparent;
-  color: var(--first-color-alt);
+  color: var(--bluish-purple);
 }
 
 /*========== SHARE ==========*/
@@ -460,7 +464,7 @@ img{
 }
 
 .footer__link:hover{
-  color: var(--first-color);
+  color: var(--purple);
 }
 
 .footer__social{
@@ -470,7 +474,7 @@ img{
 }
 
 .footer__social:hover{
-  color: var(--first-color);
+  color: var(--purple);
 }
 
 .footer__copy{
@@ -591,7 +595,7 @@ img{
   }
 
   .send__container{
-    background-color: var(--first-color-send);
+    background-color: var(--purple);
     padding: 2rem;
     border-radius: 1.5rem;
   }
@@ -615,3 +619,4 @@ img{
     column-gap: 5rem;
   }
 }
+
