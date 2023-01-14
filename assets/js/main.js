@@ -104,10 +104,10 @@ sr.reveal(`.home__data, .home__img,
     interval: 200,
 })
 
-sr.reveal(`.share__img, .send__content`, {
+sr.reveal(`.contact__img, .send__content`, {
     origin: 'left'
 })
 
-sr.reveal(`.share__data, .send__img`, {
+sr.reveal(`.contact__data, .send__img`, {
     origin: 'right'
 })

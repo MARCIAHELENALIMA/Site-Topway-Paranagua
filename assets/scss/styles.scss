@@ -294,8 +294,8 @@ img{
     }
 }
 
-/*========== SHARE ==========*/
-.share{
+/*========== contact ==========*/
+.contact{
     &__data{
         text-align: center;
     }
@@ -462,7 +462,7 @@ img{
 /* For full-screen images on small screens */
 @media screen and (max-width: 359px){
     .home__img,
-    .share__img,
+    .contact__img,
     .send__img{
         width: 100%;
     }
@@ -471,7 +471,7 @@ img{
 
 @media screen and (min-width: 576px){
     .home__container, 
-    .share__container,
+    .contact__container,
     .send__container{
         grid-template-columns: repeat(2, 1fr);
         align-items: center;
@@ -487,18 +487,18 @@ img{
     }
 
     .section-title-center,
-    .share__data,
+    .contact__data,
     .send__description{
         text-align: initial;
     }
 
     .home__img,
-    .share__img,
+    .contact__img,
     .send__img{
         width: 100%;
     }
 
-    .share__img{
+    .contact__img{
         order: -1;
     }
 }
@@ -538,7 +538,7 @@ img{
         padding: 7rem 2rem 0;
     }
 
-    .share__container{
+    .contact__container{
         padding: 0 2rem;
     }
     
@@ -580,13 +580,13 @@ img{
     }
 
     .home__img,
-    .share__img,
+    .contact__img,
     .send__img{
         width: 469px;
     }
 
     .home__container, 
-    .share__container,
+    .contact__container,
     .send__container{
         column-gap: 5rem;
     }
