@@ -375,6 +375,7 @@ img{
   justify-self: center;
   margin-bottom: .25rem;
   border-radius: 45px;
+  padding: 10px;
 }
 
 .depositions__title {
