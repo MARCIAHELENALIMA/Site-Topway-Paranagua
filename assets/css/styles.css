@@ -374,9 +374,14 @@ img{
   width: 110px;
   justify-self: center;
   margin-bottom: .25rem;
+  border-radius: 45px;
 }
 
-.depositions__title, .depositions__category{
+.depositions__title {
+  text-align: initial;
+}
+
+.depositions__category{
   text-align: center;
 }
 
@@ -582,8 +587,11 @@ img{
     margin-bottom: var(--mb-1);
   }
 
-  .depositions__title, .depositions__category{
+  .depositions__title{
     text-align: initial;
+  }
+  .depositions__category{
+    text-align: center;
   }
 
   .depositions__button{
